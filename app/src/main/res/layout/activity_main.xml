@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.camilq.combinaciontys.MainActivity">
+
+    <Spinner
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="20dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintVertical_bias="0.338"
+        android:layout_marginEnd="8dp">
+    </Spinner>
+
+    <ToggleButton
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/toggle"
+        android:textOn="Seleccionado"
+        android:textOff="No Seleccionado"
+        tools:layout_editor_absoluteY="96dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</android.support.constraint.ConstraintLayout>
